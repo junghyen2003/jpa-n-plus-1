@@ -1,4 +1,3 @@
-# spring-m2-template
-Spring Project Template
+# JPA N+1 문제
 
-- m2 Database
+- from [Spring m2 template]('https://github.com/junghyen2003/spring-m2-template')

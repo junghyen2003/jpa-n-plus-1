@@ -19,7 +19,8 @@ public class Cat {
     private CatSlave catSlave;
 
     @Builder
-    public Cat(String name) {
+    public Cat(String name, CatSlave catSlave) {
         this.name = name;
+        this.catSlave = catSlave;
     }
 }

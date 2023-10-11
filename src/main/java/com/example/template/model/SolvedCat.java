@@ -21,7 +21,8 @@ public class SolvedCat {
     private SolvedCatSlave solvedCatSlave;
 
     @Builder
-    public SolvedCat(String name) {
+    public SolvedCat(String name, SolvedCatSlave solvedCatSlave) {
         this.name = name;
+        this.solvedCatSlave = solvedCatSlave;
     }
 }
